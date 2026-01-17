@@ -145,7 +145,7 @@ export function createEmptyLevel(width: number, height: number): LevelData {
 export const SAMPLE_LEVELS: LevelData[] = [
   {
     name: 'Training Grounds',
-    author: 'Lovable',
+    author: 'Nithin',
     version: 1,
     gridWidth: 25,
     gridHeight: 25,
@@ -161,7 +161,7 @@ export const SAMPLE_LEVELS: LevelData[] = [
   },
   {
     name: 'Warehouse Infiltration',
-    author: 'Lovable',
+    author: 'Nithin',
     version: 1,
     gridWidth: 30,
     gridHeight: 25,
@@ -178,7 +178,7 @@ export const SAMPLE_LEVELS: LevelData[] = [
   },
   {
     name: 'The Maze',
-    author: 'Lovable',
+    author: 'Nithin',
     version: 1,
     gridWidth: 35,
     gridHeight: 35,
