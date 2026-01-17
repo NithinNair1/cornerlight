@@ -1,6 +1,7 @@
 // Music Manager for background music with crossfade support
-const MENU_MUSIC_PATH = '/music/menu-theme.mp3';
-const GAME_MUSIC_PATH = '/music/game-theme.mp3';
+// Use import.meta.env.BASE_URL to handle GitHub Pages subpath deployment
+const MENU_MUSIC_PATH = `${import.meta.env.BASE_URL}music/menu-theme.mp3`;
+const GAME_MUSIC_PATH = `${import.meta.env.BASE_URL}music/game-theme.mp3`;
 const CROSSFADE_DURATION = 1500; // 1.5 seconds for smooth transition
 
 class MusicManager {
